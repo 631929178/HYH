@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.qianfeng.hyh.day25lrucache1.MainActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/msgId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lru缓存"
+
+        />
+
+    <Button
+        android:id="@+id/button1Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载图片"
+        />
+
+    <Button
+        android:id="@+id/button2Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="存图片"
+        />
+
+    <Button
+        android:id="@+id/button3Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取图片"
+        />
+
+    <Button
+        android:id="@+id/button4Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删图片"
+        />
+
+    <ImageView
+        android:id="@+id/imageId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        />
+</LinearLayout>
